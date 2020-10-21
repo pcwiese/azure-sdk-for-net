@@ -39,8 +39,8 @@ parameters:
   type: stepList
   default: []
 - name: Clouds
-  type: object
-  default: ['AzureCloud']
+  type: string
+  default: 'AzureCloud'
 
 jobs:
 - template: archetype-sdk-tests-jobs.yml
