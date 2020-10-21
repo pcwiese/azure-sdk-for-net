@@ -47,8 +47,6 @@ extends:
       safeName: AzureWebJobsExtensionsStorageCommon
     - name: Azure.WebJobs.Extensions.Storage.Queues
       safeName: AzureWebJobsExtensionsStorageQueues
-    - name: Microsoft.Extensions.Azure
-      safeName: MicrosoftExtensionsAzure
     - name: Azure.ResourceManager.Storage
       safeName: AzureResourceManagerStorage
     TestSetupSteps:
